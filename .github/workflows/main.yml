@@ -48,13 +48,13 @@ jobs:
       - name: Run the API and Postman's tests
         run: |
           nodemon &
-          sleep 60
+          sleep 20
           newman run "HelloApi.postman_collection.json"
 
       # build and test the apps
-      - name: build
-        run: |
-          # npm run build
-          # npm run test
+      # - name: build
+      #   run: |
+      # npm run build
+      # npm run test
 
 #HelloApi.postman_collection.json
