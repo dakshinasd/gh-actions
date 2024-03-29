@@ -19,7 +19,7 @@
               "",
               "pm.test(\"Body is correct\", function () {",
               "    pm.response.to.have.body({",
-              "    \"message\": \"hello world\"",
+              "    \"message\": \"hello worlds\"",
               "});",
               "});"
             ],
